@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/homefragment.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/homefragment.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_add_news.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_add_news.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/secondfragment.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/secondfragment.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_register.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_del_news.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_del_news.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/notificationsfragment.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/notificationsfragment.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_login.xml"
+    }
+]
