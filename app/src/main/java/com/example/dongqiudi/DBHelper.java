@@ -76,6 +76,34 @@ public class DBHelper extends SQLiteOpenHelper {
                 "了转会利物浦的细节条款，他将在下赛季成为红军球员。" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
+        values.put(COLUMN_NEWS_ID,"4");
+        values.put(COLUMN_NEWS_TITLE,"陶强龙专访：海外拉练让自己收获自信，争取早日入选国家队");
+        values.put(COLUMN_CONTEXT,"在与南通支云的比赛中，陶强龙完成个人职业生涯首个帽子戏法，并送出1次助攻，" +
+                "帮助球队大胜对手，最终他当选懂球帝中超第9轮MVP。" );
+        db.insert(TABLE_NEWS, null, values);
+        values.clear();
+        values.put(COLUMN_NEWS_ID,"5");
+        values.put(COLUMN_NEWS_TITLE,"官方：范德萨不再担任阿贾克斯CEO");
+        values.put(COLUMN_CONTEXT,"阿贾克斯CEO埃德温-范德萨决定离开阿贾克斯。从2023年6月1日起，范德萨将把职责移交至管理层的同事。" +
+                "监事会要求范德萨正式留任至8月1日，以确保国内外相关项目资料的顺利移交。" );
+        db.insert(TABLE_NEWS, null, values);
+        values.clear();
+        values.put(COLUMN_NEWS_ID,"6");
+        values.put(COLUMN_NEWS_TITLE,"连扳三城！深圳3-2梅州，饶伟辉两助攻，阿奇姆彭两传一射");
+        values.put(COLUMN_CONTEXT,"北京时间5月28日19:35，中超第10轮，深圳坐镇大运中心迎战梅州，马宁主哨，黄翼出任视频助理裁判。" +
+                "上半场比赛，饶伟辉发挥出色，先后助攻杨超声、潘喜明取得进球；下半场，阿奇姆彭两传一射，张源破门，刘越打入制胜球。最终深圳3-2逆转梅州。" );
+        db.insert(TABLE_NEWS, null, values);
+        values.clear();
+        values.put(COLUMN_NEWS_ID,"7");
+        values.put(COLUMN_NEWS_TITLE,"TA记者：皇马近几个月已经多次询问了劳塔罗的情况");
+        values.put(COLUMN_CONTEXT,"根据The Athletic的皇马跟队记者马里奥-科尔特加纳的报道，皇马近几个月已经多次询问了国米前锋劳塔罗的情况。" );
+        db.insert(TABLE_NEWS, null, values);
+        values.clear();
+        values.put(COLUMN_NEWS_ID,"8");
+        values.put(COLUMN_NEWS_TITLE,"陈洋：队员们没有缩在半场防守，但中场控制力确实不如海港");
+        values.put(COLUMN_CONTEXT,"长春亚泰主教练陈洋在球队0-3负于海港的赛后表示，球队的中场控制力确实不如海港队。" );
+        db.insert(TABLE_NEWS, null, values);
+        values.clear();
 
         db.execSQL(CREATE_TABLE_SCORES); // 创建积分表
 
