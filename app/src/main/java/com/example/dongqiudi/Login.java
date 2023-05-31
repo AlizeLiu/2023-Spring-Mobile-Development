@@ -28,6 +28,7 @@ public class Login extends AppCompatActivity {
             public void onClick(View v) {
                 intent = new Intent(Login.this, com.example.dongqiudi.Register.class);
                 startActivity(intent);
+                finish();
             }
         });
         Login.setOnClickListener(new View.OnClickListener() {
@@ -40,6 +41,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "登录成功", Toast.LENGTH_SHORT).show();
                     intent = new Intent(Login.this,MainActivity.class);
                     startActivity(intent);
+                    finish();
                 }
                 else{
                     Toast.makeText(Login.this,"账号密码错误",Toast.LENGTH_SHORT).show();

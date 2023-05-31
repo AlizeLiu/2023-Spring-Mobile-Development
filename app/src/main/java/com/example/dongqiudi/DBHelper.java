@@ -60,48 +60,49 @@ public class DBHelper extends SQLiteOpenHelper {
 
         values.put(COLUMN_NEWS_ID,"1");
         values.put(COLUMN_NEWS_TITLE,"曾是热身赛之王的国足，这次是怎么错过阿根廷的？");
-        values.put(COLUMN_CONTEXT,"阿根廷来华与澳大利亚的比赛临近，关于球票、梅西等话题不断冲上热搜。");
+        values.put(COLUMN_CONTEXT,"阿根廷来华与澳大利亚的比赛临近，关于球票、梅西等话题不断冲上热搜。\n");
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"2");
         values.put(COLUMN_NEWS_TITLE,"维拉2-1布莱顿，力压热刺锁定赛季第七进军欧协联资格赛");
         values.put(COLUMN_CONTEXT,"北京时间5月29日，英超收官战，阿斯顿维拉主场迎战布莱顿。上半场比赛," +
-                "雅各布-拉姆齐送出两记助攻，道格拉斯-路易斯、沃特金斯先后破门，昂达夫扳回一城；下半场，拉姆齐空门不进。最终维拉主场2-1力克布莱顿，锁定赛季第七名。");
+                "雅各布-拉姆齐送出两记助攻，道格拉斯-路易斯、沃特金斯先后破门，昂达夫扳回一城；下半场，" +
+                "拉姆齐空门不进。最终维拉主场2-1力克布莱顿，锁定赛季第七名。\n");
         db.insert(TABLE_NEWS, null, values);
         values.clear();
 
         values.put(COLUMN_NEWS_ID,"3");
         values.put(COLUMN_NEWS_TITLE,"记者：麦卡利斯特将与利物浦签约至2028年，转会费7000万欧起");
         values.put(COLUMN_CONTEXT,"据阿根廷Tyc记者Germán García Grova报道，麦卡利斯特已与自己的父亲及经纪人一同敲定" +
-                "了转会利物浦的细节条款，他将在下赛季成为红军球员。" );
+                "了转会利物浦的细节条款，他将在下赛季成为红军球员。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"4");
         values.put(COLUMN_NEWS_TITLE,"陶强龙专访：海外拉练让自己收获自信，争取早日入选国家队");
         values.put(COLUMN_CONTEXT,"在与南通支云的比赛中，陶强龙完成个人职业生涯首个帽子戏法，并送出1次助攻，" +
-                "帮助球队大胜对手，最终他当选懂球帝中超第9轮MVP。" );
+                "帮助球队大胜对手，最终他当选懂球帝中超第9轮MVP。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"5");
         values.put(COLUMN_NEWS_TITLE,"官方：范德萨不再担任阿贾克斯CEO");
         values.put(COLUMN_CONTEXT,"阿贾克斯CEO埃德温-范德萨决定离开阿贾克斯。从2023年6月1日起，范德萨将把职责移交至管理层的同事。" +
-                "监事会要求范德萨正式留任至8月1日，以确保国内外相关项目资料的顺利移交。" );
+                "监事会要求范德萨正式留任至8月1日，以确保国内外相关项目资料的顺利移交。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"6");
         values.put(COLUMN_NEWS_TITLE,"连扳三城！深圳3-2梅州，饶伟辉两助攻，阿奇姆彭两传一射");
         values.put(COLUMN_CONTEXT,"北京时间5月28日19:35，中超第10轮，深圳坐镇大运中心迎战梅州，马宁主哨，黄翼出任视频助理裁判。" +
-                "上半场比赛，饶伟辉发挥出色，先后助攻杨超声、潘喜明取得进球；下半场，阿奇姆彭两传一射，张源破门，刘越打入制胜球。最终深圳3-2逆转梅州。" );
+                "上半场比赛，饶伟辉发挥出色，先后助攻杨超声、潘喜明取得进球；下半场，阿奇姆彭两传一射，张源破门，刘越打入制胜球。最终深圳3-2逆转梅州。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"7");
         values.put(COLUMN_NEWS_TITLE,"TA记者：皇马近几个月已经多次询问了劳塔罗的情况");
-        values.put(COLUMN_CONTEXT,"根据The Athletic的皇马跟队记者马里奥-科尔特加纳的报道，皇马近几个月已经多次询问了国米前锋劳塔罗的情况。" );
+        values.put(COLUMN_CONTEXT,"根据The Athletic的皇马跟队记者马里奥-科尔特加纳的报道，皇马近几个月已经多次询问了国米前锋劳塔罗的情况。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
         values.put(COLUMN_NEWS_ID,"8");
         values.put(COLUMN_NEWS_TITLE,"陈洋：队员们没有缩在半场防守，但中场控制力确实不如海港");
-        values.put(COLUMN_CONTEXT,"长春亚泰主教练陈洋在球队0-3负于海港的赛后表示，球队的中场控制力确实不如海港队。" );
+        values.put(COLUMN_CONTEXT,"长春亚泰主教练陈洋在球队0-3负于海港的赛后表示，球队的中场控制力确实不如海港队。\n" );
         db.insert(TABLE_NEWS, null, values);
         values.clear();
 
@@ -308,17 +309,18 @@ public class DBHelper extends SQLiteOpenHelper {
 
         values.put(COLUMN_NEWS_ID,"1");
         values.put(COLUMN_NEWS_TITLE,"曾是热身赛之王的国足，这次是怎么错过阿根廷的？");
-        values.put(COLUMN_CONTEXT,"阿根廷来华与澳大利亚的比赛临近，关于球票、梅西等话题不断冲上热搜。");
+        values.put(COLUMN_CONTEXT,"阿根廷来华与澳大利亚的比赛临近，关于球票、梅西等话题不断冲上热搜。\n");
 
         values.put(COLUMN_NEWS_ID,"2");
         values.put(COLUMN_NEWS_TITLE,"维拉2-1布莱顿，力压热刺锁定赛季第七进军欧协联资格赛");
         values.put(COLUMN_CONTEXT,"北京时间5月29日，英超收官战，阿斯顿维拉主场迎战布莱顿。上半场比赛," +
-                "雅各布-拉姆齐送出两记助攻，道格拉斯-路易斯、沃特金斯先后破门，昂达夫扳回一城；下半场，拉姆齐空门不进。最终维拉主场2-1力克布莱顿，锁定赛季第七名。");
+                "雅各布-拉姆齐送出两记助攻，道格拉斯-路易斯、沃特金斯先后破门，昂达夫扳回一城；下半场，" +
+                "拉姆齐空门不进。最终维拉主场2-1力克布莱顿，锁定赛季第七名。\n");
 
         values.put(COLUMN_NEWS_ID,"3");
         values.put(COLUMN_NEWS_TITLE,"记者：麦卡利斯特将与利物浦签约至2028年，转会费7000万欧起");
         values.put(COLUMN_CONTEXT,"据阿根廷Tyc记者Germán García Grova报道，麦卡利斯特已与自己的父亲及经纪人一同敲定" +
-                "了转会利物浦的细节条款，他将在下赛季成为红军球员。" );
+                "了转会利物浦的细节条款，他将在下赛季成为红军球员。\n" );
         db.insert(TABLE_NEWS, null, values);
     }
 

@@ -34,6 +34,7 @@ public class Register extends AppCompatActivity {
                     Toast.makeText(Register.this, "亲爱的用户，恭喜你注册成功", Toast.LENGTH_SHORT).show();
                     intent = new Intent(com.example.dongqiudi.Register.this,Login.class);
                     startActivity(intent);
+                    finish();
                 }
                 else {
                     Toast.makeText(Register.this, "注册失败，请一分钟后重试", Toast.LENGTH_SHORT).show();
