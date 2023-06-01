@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.Dongqiudi" >
         <activity
+            android:name="com.example.dongqiudi.itemClick"
+            android:exported="true" />
+        <activity
             android:name="com.example.dongqiudi.delNews"
             android:exported="true" />
         <activity

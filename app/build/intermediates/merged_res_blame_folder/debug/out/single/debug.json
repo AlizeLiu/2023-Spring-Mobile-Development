@@ -28,6 +28,10 @@
         "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/merged_res/debug/mipmap-hdpi_inter.png.flat",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/mipmap-hdpi/inter.png"
+    },
+    {
         "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp"
     },
@@ -78,6 +82,10 @@
     {
         "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/merged_res/debug/layout_homefragment.xml.flat",
         "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/homefragment.xml"
+    },
+    {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/merged_res/debug/layout_activity_item_click.xml.flat",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_item_click.xml"
     },
     {
         "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher_round.webp.flat",

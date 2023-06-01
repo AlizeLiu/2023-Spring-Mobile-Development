@@ -22,7 +22,8 @@ id Re_textID
 id Re_textPasswd
 id button
 id button2
-id delBtn
+id contextTextView
+id delte
 id etNo
 id etUserID
 id etUserPasswd
@@ -30,6 +31,7 @@ id etcon
 id etid
 id ettit
 id fragment_container
+id imageView2
 id navigation
 id navigation_data
 id navigation_main
@@ -41,9 +43,11 @@ id textPasswd
 id textView
 id textView2
 id textView3
-id upNews
+id titleTextView
+id update
 layout activity_add_news
 layout activity_del_news
+layout activity_item_click
 layout activity_login
 layout activity_main
 layout activity_register
@@ -53,6 +57,7 @@ layout secondfragment
 menu navigation_manu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap inter
 string action_sign_in
 string action_sign_in_short
 string app_name

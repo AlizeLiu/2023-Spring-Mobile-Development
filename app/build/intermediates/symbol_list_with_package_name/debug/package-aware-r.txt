@@ -1896,6 +1896,7 @@ id confirm_button
 id container
 id content
 id contentPanel
+id contextTextView
 id contiguous
 id coordinator
 id cos
@@ -1908,8 +1909,8 @@ id decelerate
 id decelerateAndComplete
 id decor_content_parent
 id default_activity_button
-id delBtn
 id deltaRelative
+id delte
 id dependency_ordering
 id design_bottom_sheet
 id design_menu_item_action_area
@@ -1980,6 +1981,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageView2
 id info
 id invisible
 id inward
@@ -2197,6 +2199,7 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id titleTextView
 id title_template
 id toggle
 id top
@@ -2214,7 +2217,7 @@ id unchecked
 id uniform
 id unlabeled
 id up
-id upNews
+id update
 id useLogo
 id view_offset_helper
 id view_tree_lifecycle_owner
@@ -2297,6 +2300,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_news
 layout activity_del_news
+layout activity_item_click
 layout activity_login
 layout activity_main
 layout activity_register
@@ -2390,6 +2394,7 @@ layout text_view_without_line_height
 menu navigation_manu
 mipmap ic_launcher
 mipmap ic_launcher_round
+mipmap inter
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description
 string abc_action_bar_up_description

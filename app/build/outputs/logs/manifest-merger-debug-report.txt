@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [androidx.databinding:viewbinding:7.1.0-alpha11] /Users/alize/.gradle/caches/transforms-3/deed323260b143782d6062eb84d5d54f/transformed/jetified-viewbinding-7.1.0-alpha11/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.3.5] /Users/alize/.gradle/caches/transforms-3/ad8c02864be4a9d9a27809080ae41b6b/transformed/navigation-ui-2.3.5/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.material:material:1.4.0] /Users/alize/.gradle/caches/transforms-3/39398a286d97983734ffc9e6c36dcd6a/transformed/material-1.4.0/AndroidManifest.xml:17:1-24:12
@@ -47,25 +47,25 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/alize/.gradle/cach
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/alize/.gradle/caches/transforms-3/0eb526e348495eb1e413f4f2ac60d1a7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] /Users/alize/.gradle/caches/transforms-3/e53e78ff11227f9f262361eaa1a48b5a/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/alize/.gradle/caches/transforms-3/a491242c834b60844152c54e8324da1e/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:3:5-36
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-39:12
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:5:5-37:19
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:5:5-40:19
 MERGED from [com.google.android.material:material:1.4.0] /Users/alize/.gradle/caches/transforms-3/39398a286d97983734ffc9e6c36dcd6a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.4.0] /Users/alize/.gradle/caches/transforms-3/39398a286d97983734ffc9e6c36dcd6a/transformed/material-1.4.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/alize/.gradle/caches/transforms-3/113914d4d3a0868a57deef1336fa491a/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
@@ -88,54 +88,60 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/aliz
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:11:9-47
-activity#com.example.dongqiudi.delNews
+activity#com.example.dongqiudi.itemClick
 ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:12:9-14:39
 	android:exported
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:14:13-36
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:13:13-36
-activity#com.example.dongqiudi.addNews
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:13:13-38
+activity#com.example.dongqiudi.delNews
 ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:15:9-17:39
 	android:exported
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:17:13-36
 	android:name
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:16:13-36
-activity#com.example.dongqiudi.Register
+activity#com.example.dongqiudi.addNews
 ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:18:9-20:39
 	android:exported
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:20:13-36
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:19:13-37
-activity#com.example.dongqiudi.ui.login.LoginActivity
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:21:9-24:60
-	android:label
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:24:13-57
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:19:13-36
+activity#com.example.dongqiudi.Register
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:21:9-23:39
 	android:exported
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:23:13-36
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:22:13-51
-activity#com.example.dongqiudi.Login
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:25:9-27:39
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:22:13-37
+activity#com.example.dongqiudi.ui.login.LoginActivity
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:24:9-27:60
+	android:label
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:27:13-57
 	android:exported
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:26:13-34
-activity#com.example.dongqiudi.MainActivity
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:28:9-36:20
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:25:13-51
+activity#com.example.dongqiudi.Login
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:28:9-30:39
 	android:exported
 		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:29:13-41
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:29:13-34
+activity#com.example.dongqiudi.MainActivity
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:31:9-39:20
+	android:exported
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:31:13-35:29
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:13-38:29
 action#android.intent.action.MAIN
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:17-69
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:35:17-69
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:35:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:17-77
+ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:27-74
+		ADDED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:37:27-74
 uses-sdk
 INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml

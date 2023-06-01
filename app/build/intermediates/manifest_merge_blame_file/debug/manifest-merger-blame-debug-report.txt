@@ -11,7 +11,7 @@
 9-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:5:5-37:19
+11-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:5:5-40:19
 12        android:allowBackup="true"
 12-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -31,53 +31,59 @@
 21-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:11:9-47
 22        <activity
 22-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:12:9-14:39
-23            android:name="com.example.dongqiudi.delNews"
-23-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:13:13-36
+23            android:name="com.example.dongqiudi.itemClick"
+23-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:13:13-38
 24            android:exported="true" />
 24-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:14:13-36
 25        <activity
 25-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:15:9-17:39
-26            android:name="com.example.dongqiudi.addNews"
+26            android:name="com.example.dongqiudi.delNews"
 26-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:16:13-36
 27            android:exported="true" />
 27-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:17:13-36
 28        <activity
 28-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:18:9-20:39
-29            android:name="com.example.dongqiudi.Register"
-29-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:19:13-37
+29            android:name="com.example.dongqiudi.addNews"
+29-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:19:13-36
 30            android:exported="true" />
 30-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:20:13-36
 31        <activity
-31-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:21:9-24:60
-32            android:name="com.example.dongqiudi.ui.login.LoginActivity"
-32-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:22:13-51
-33            android:exported="true"
+31-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:21:9-23:39
+32            android:name="com.example.dongqiudi.Register"
+32-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:22:13-37
+33            android:exported="true" />
 33-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:23:13-36
-34            android:label="@string/title_activity_login" />
-34-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:24:13-57
-35        <activity
-35-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:25:9-27:39
-36            android:name="com.example.dongqiudi.Login"
-36-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:26:13-34
-37            android:exported="true" />
-37-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:27:13-36
+34        <activity
+34-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:24:9-27:60
+35            android:name="com.example.dongqiudi.ui.login.LoginActivity"
+35-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:25:13-51
+36            android:exported="true"
+36-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:26:13-36
+37            android:label="@string/title_activity_login" />
+37-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:27:13-57
 38        <activity
-38-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:28:9-36:20
-39            android:name="com.example.dongqiudi.MainActivity"
-39-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:29:13-41
-40            android:exported="true" >
+38-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:28:9-30:39
+39            android:name="com.example.dongqiudi.Login"
+39-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:29:13-34
+40            android:exported="true" />
 40-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:30:13-36
-41            <intent-filter>
-41-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:31:13-35:29
-42                <action android:name="android.intent.action.MAIN" />
-42-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:17-69
-42-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:25-66
-43
-44                <category android:name="android.intent.category.LAUNCHER" />
-44-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:17-77
-44-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:27-74
-45            </intent-filter>
-46        </activity>
-47    </application>
-48
-49</manifest>
+41        <activity
+41-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:31:9-39:20
+42            android:name="com.example.dongqiudi.MainActivity"
+42-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:32:13-41
+43            android:exported="true" >
+43-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:33:13-36
+44            <intent-filter>
+44-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:34:13-38:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:35:17-69
+45-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:35:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:37:17-77
+47-->/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/AndroidManifest.xml:37:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

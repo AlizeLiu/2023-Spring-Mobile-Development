@@ -12,6 +12,10 @@
         "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_main.xml"
     },
     {
+        "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_item_click.xml",
+        "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/activity_item_click.xml"
+    },
+    {
         "merged": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/secondfragment.xml",
         "source": "/Users/alize/AndroidStudioProjects/Dongqiudi/app/src/main/res/layout/secondfragment.xml"
     },

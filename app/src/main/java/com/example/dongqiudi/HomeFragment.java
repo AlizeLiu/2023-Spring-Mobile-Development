@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.Image;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,6 +13,7 @@ import android.widget.Adapter;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.SimpleCursorAdapter;
 
@@ -26,17 +28,19 @@ public class HomeFragment extends Fragment {
     private SQLiteDatabase db;
     private DBHelper dbHelper;
     private Cursor cursor;
-    private Button upBtn,delBtn;
+    //private Button upBtn,delBtn;
     private Intent intent;
-
+    private ImageButton btn1,btn2;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.homefragment, container, false);
         newsLv = view.findViewById(R.id.newsListView);
         dbHelper = new DBHelper(getActivity());
         db = dbHelper.getReadableDatabase();
-        upBtn = view.findViewById(R.id.upNews);
-        delBtn = view.findViewById(R.id.delBtn);
+        //upBtn = view.findViewById(R.id.upNews);
+        //delBtn = view.findViewById(R.id.delBtn);
+        btn1 = view.findViewById(R.id.update);
+        btn2 = view.findViewById(R.id.delte);
         cursor = db.rawQuery("SELECT news_title,news_context FROM db_news", null);
         List<String> dataList = new ArrayList<>();
         while (cursor.moveToNext()) {
@@ -62,7 +66,9 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        upBtn.setOnClickListener(new View.OnClickListener() {
+
+
+        btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getContext(),addNews.class);
@@ -72,7 +78,7 @@ public class HomeFragment extends Fragment {
             }
         });
 
-        delBtn.setOnClickListener(new View.OnClickListener() {
+        btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getContext(),delNews.class);
