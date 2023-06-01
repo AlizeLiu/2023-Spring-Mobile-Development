@@ -1953,6 +1953,7 @@ int id fill 0x7f0800a7
 int id fill_horizontal 0x7f0800a8
 int id fill_vertical 0x7f0800a9
 int id filled 0x7f0800aa
+int id findbtn 0x7f0801cf
 int id fitToContents 0x7f0800ab
 int id fixed 0x7f0800ac
 int id flip 0x7f0800ad

@@ -303,26 +303,6 @@ public class DBHelper extends SQLiteOpenHelper {
 
     }
 
-    void InitNews(){
-        SQLiteDatabase db = getWritableDatabase();
-        ContentValues values = new ContentValues();
-
-        values.put(COLUMN_NEWS_ID,"1");
-        values.put(COLUMN_NEWS_TITLE,"曾是热身赛之王的国足，这次是怎么错过阿根廷的？");
-        values.put(COLUMN_CONTEXT,"阿根廷来华与澳大利亚的比赛临近，关于球票、梅西等话题不断冲上热搜。\n");
-
-        values.put(COLUMN_NEWS_ID,"2");
-        values.put(COLUMN_NEWS_TITLE,"维拉2-1布莱顿，力压热刺锁定赛季第七进军欧协联资格赛");
-        values.put(COLUMN_CONTEXT,"北京时间5月29日，英超收官战，阿斯顿维拉主场迎战布莱顿。上半场比赛," +
-                "雅各布-拉姆齐送出两记助攻，道格拉斯-路易斯、沃特金斯先后破门，昂达夫扳回一城；下半场，" +
-                "拉姆齐空门不进。最终维拉主场2-1力克布莱顿，锁定赛季第七名。\n");
-
-        values.put(COLUMN_NEWS_ID,"3");
-        values.put(COLUMN_NEWS_TITLE,"记者：麦卡利斯特将与利物浦签约至2028年，转会费7000万欧起");
-        values.put(COLUMN_CONTEXT,"据阿根廷Tyc记者Germán García Grova报道，麦卡利斯特已与自己的父亲及经纪人一同敲定" +
-                "了转会利物浦的细节条款，他将在下赛季成为红军球员。\n" );
-        db.insert(TABLE_NEWS, null, values);
-    }
 
 /*
     private void InitNews(){
@@ -348,6 +328,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         return db.update(TABLE_NEWS, values, COLUMN_NEWS_ID + " = ?", new String[]{newsId});
     }
+
 
 
 

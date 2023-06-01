@@ -4,6 +4,7 @@ package com.example.dongqiudi.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -20,10 +21,15 @@ public final class SecondfragmentBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
+  public final ImageView imageView2;
+
+  @NonNull
   public final TextView textView2;
 
-  private SecondfragmentBinding(@NonNull LinearLayout rootView, @NonNull TextView textView2) {
+  private SecondfragmentBinding(@NonNull LinearLayout rootView, @NonNull ImageView imageView2,
+      @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.imageView2 = imageView2;
     this.textView2 = textView2;
   }
 
@@ -54,13 +60,19 @@ public final class SecondfragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.imageView2;
+      ImageView imageView2 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView2 == null) {
+        break missingId;
+      }
+
       id = R.id.textView2;
       TextView textView2 = ViewBindings.findChildViewById(rootView, id);
       if (textView2 == null) {
         break missingId;
       }
 
-      return new SecondfragmentBinding((LinearLayout) rootView, textView2);
+      return new SecondfragmentBinding((LinearLayout) rootView, imageView2, textView2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

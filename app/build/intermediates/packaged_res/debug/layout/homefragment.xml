@@ -1,4 +1,5 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -9,21 +10,24 @@
         android:layout_height="wrap_content">
 
         <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_gravity="center">
 
-            <Button
-                android:id="@+id/upNews"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
 
-                android:text="修改新闻" />
-            <Button
-                android:id="@+id/delBtn"
+            <ImageButton
+                android:id="@+id/update"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="删除新闻" />
+                app:srcCompat="@android:drawable/ic_menu_preferences" />
+
+            <ImageButton
+                android:id="@+id/delte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_delete" />
+
+
         </TableRow>
 
     </TableLayout>

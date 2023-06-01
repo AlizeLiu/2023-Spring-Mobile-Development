@@ -1954,6 +1954,7 @@ id fill
 id fill_horizontal
 id fill_vertical
 id filled
+id findbtn
 id fitToContents
 id fixed
 id flip

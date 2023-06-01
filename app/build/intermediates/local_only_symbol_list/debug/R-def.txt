@@ -30,6 +30,7 @@ id etUserPasswd
 id etcon
 id etid
 id ettit
+id findbtn
 id fragment_container
 id imageView2
 id navigation

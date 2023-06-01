@@ -4,7 +4,7 @@ package com.example.dongqiudi.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import androidx.annotation.NonNull;
@@ -21,20 +21,20 @@ public final class HomefragmentBinding implements ViewBinding {
   private final LinearLayout rootView;
 
   @NonNull
-  public final Button delBtn;
+  public final ImageButton delte;
 
   @NonNull
   public final ListView newsListView;
 
   @NonNull
-  public final Button upNews;
+  public final ImageButton update;
 
-  private HomefragmentBinding(@NonNull LinearLayout rootView, @NonNull Button delBtn,
-      @NonNull ListView newsListView, @NonNull Button upNews) {
+  private HomefragmentBinding(@NonNull LinearLayout rootView, @NonNull ImageButton delte,
+      @NonNull ListView newsListView, @NonNull ImageButton update) {
     this.rootView = rootView;
-    this.delBtn = delBtn;
+    this.delte = delte;
     this.newsListView = newsListView;
-    this.upNews = upNews;
+    this.update = update;
   }
 
   @Override
@@ -64,9 +64,9 @@ public final class HomefragmentBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.delBtn;
-      Button delBtn = ViewBindings.findChildViewById(rootView, id);
-      if (delBtn == null) {
+      id = R.id.delte;
+      ImageButton delte = ViewBindings.findChildViewById(rootView, id);
+      if (delte == null) {
         break missingId;
       }
 
@@ -76,13 +76,13 @@ public final class HomefragmentBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.upNews;
-      Button upNews = ViewBindings.findChildViewById(rootView, id);
-      if (upNews == null) {
+      id = R.id.update;
+      ImageButton update = ViewBindings.findChildViewById(rootView, id);
+      if (update == null) {
         break missingId;
       }
 
-      return new HomefragmentBinding((LinearLayout) rootView, delBtn, newsListView, upNews);
+      return new HomefragmentBinding((LinearLayout) rootView, delte, newsListView, update);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
