@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Dongqiudi">
         <activity
+            android:name=".itemClick"
+            android:exported="true" />
+        <activity
             android:name=".delNews"
             android:exported="true" />
         <activity

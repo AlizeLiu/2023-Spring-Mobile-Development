@@ -9,6 +9,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Adapter;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
@@ -47,11 +48,27 @@ public class HomeFragment extends Fragment {
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getContext(), android.R.layout.simple_list_item_1, dataList);
         newsLv.setAdapter(adapter);
 
+        newsLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                cursor.moveToPosition(position);
+                String newsTitle = cursor.getString(0);
+                String newsContext = cursor.getString(1);
+
+                Intent intent = new Intent(getContext(), itemClick.class);
+                intent.putExtra("newsTitle", newsTitle);
+                intent.putExtra("newsContext", newsContext);
+                startActivity(intent);
+            }
+        });
+
         upBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 intent = new Intent(getContext(),addNews.class);
+
                 startActivity(intent);
+
             }
         });
 
@@ -60,6 +77,7 @@ public class HomeFragment extends Fragment {
             public void onClick(View v) {
                 intent = new Intent(getContext(),delNews.class);
                 startActivity(intent);
+
             }
         });
                 return view;

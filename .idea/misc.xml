@@ -5,11 +5,12 @@
       <map>
         <entry key="app/src/main/res/layout/activity_add_news.xml" value="0.36820652173913043" />
         <entry key="app/src/main/res/layout/activity_del_news.xml" value="0.24915824915824916" />
+        <entry key="app/src/main/res/layout/activity_item_click.xml" value="0.1887031408308004" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.36820652173913043" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.36820652173913043" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.39104156494140624" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.36820652173913043" />
-        <entry key="app/src/main/res/layout/homefragment.xml" value="0.36820652173913043" />
+        <entry key="app/src/main/res/layout/homefragment.xml" value="0.3148614609571788" />
         <entry key="app/src/main/res/layout/navigation_manu.xml" value="0.36820652173913043" />
         <entry key="app/src/main/res/layout/notificationsfragment.xml" value="0.36820652173913043" />
         <entry key="app/src/main/res/layout/secondfragment.xml" value="0.36820652173913043" />

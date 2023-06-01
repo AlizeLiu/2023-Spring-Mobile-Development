@@ -32,7 +32,7 @@ public class delNews extends AppCompatActivity {
                 Toast.makeText(delNews.this, "已删除", Toast.LENGTH_SHORT).show();
                 intent = new Intent(delNews.this,MainActivity.class);
                 startActivity(intent);
-
+                finish();
             }
         });
     }
