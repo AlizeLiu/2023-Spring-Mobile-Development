@@ -32,13 +32,18 @@ public final class ActivityAddNewsBinding implements ViewBinding {
   @NonNull
   public final EditText ettit;
 
+  @NonNull
+  public final Button findbtn;
+
   private ActivityAddNewsBinding(@NonNull LinearLayout rootView, @NonNull Button button,
-      @NonNull EditText etcon, @NonNull EditText etid, @NonNull EditText ettit) {
+      @NonNull EditText etcon, @NonNull EditText etid, @NonNull EditText ettit,
+      @NonNull Button findbtn) {
     this.rootView = rootView;
     this.button = button;
     this.etcon = etcon;
     this.etid = etid;
     this.ettit = ettit;
+    this.findbtn = findbtn;
   }
 
   @Override
@@ -92,7 +97,14 @@ public final class ActivityAddNewsBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ActivityAddNewsBinding((LinearLayout) rootView, button, etcon, etid, ettit);
+      id = R.id.findbtn;
+      Button findbtn = ViewBindings.findChildViewById(rootView, id);
+      if (findbtn == null) {
+        break missingId;
+      }
+
+      return new ActivityAddNewsBinding((LinearLayout) rootView, button, etcon, etid, ettit,
+          findbtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

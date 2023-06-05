@@ -22,39 +22,30 @@
                 android:id="@+id/etid"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:inputType="textPersonName"
                 android:text="" />
         </TableRow>
-
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
-
 
 
             <EditText
-                android:hint="输入需要修改的标题"
                 android:id="@+id/ettit"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:inputType="textPersonName"
-                android:text="" />
-        </TableRow>
+                android:layout_height="wrap_content"
+                android:hint="输入需要修改的标题"
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+                android:text="" />
+
+
 
 
             <EditText
                 android:id="@+id/etcon"
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
 
-                android:inputType="textPersonName"
-                android:hint="输入需要修改的内容" />
-        </TableRow>
+                android:hint="输入需要修改的内容"
+                 />
+
 
         <TableRow
             android:layout_width="wrap_content"
@@ -62,10 +53,18 @@
             android:gravity="center">
 
             <Button
+                android:id="@+id/findbtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="查询" />
+
+            <Button
                 android:id="@+id/button"
 
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:text="更新" />
         </TableRow>
     </TableLayout>

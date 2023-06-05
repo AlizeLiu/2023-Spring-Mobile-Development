@@ -10,7 +10,7 @@ import java.net.IDN;
 
 public class DBHelper extends SQLiteOpenHelper {
 
-    private static final String DATABASE_NAME = "users.db";
+    private static final String DATABASE_NAME = "dqd.db";
     private static final int DATABASE_VERSION = 2;
 
     private static final String TABLE_USERS = "users";
